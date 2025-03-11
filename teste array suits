@@ -23,5 +23,9 @@ int processos[5]={101, 202, 303, 404, 505};
 int *ptr = processos;
 printf("%d\n", processos[2]);
 printf("%d\n", *(ptr + 1));
+printf("%d\n", *(ptr + 0));
+printf("%d\n", *(ptr + 4));
+
+}
 
 }
